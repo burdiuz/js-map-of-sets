@@ -49,9 +49,6 @@ console.log(sets.get()); // Set[ 'value 1', 'value 2', 'value 3' ]
  * **remove**(key) -- Remove all values for key
  * **removeValue**(key, value) -- Remove single value from key
  * **clone**() -- Clone all key-value stores
- 
-
-### TODO
-1. Why add() is restricted from adding falsy values? Its general purpose lib, remove restriction or move it to origin.
+  
 
 > Written with [StackEdit](https://stackedit.io/).

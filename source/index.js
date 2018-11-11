@@ -72,7 +72,6 @@ export class MapOfSets {
    * @param {*} value
    */
   add(key, value) {
-    if (!value) return;
     const values = this.storage.get(key);
 
     if (values) {
